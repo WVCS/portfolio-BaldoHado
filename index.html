@@ -5,11 +5,93 @@
 <head>
   <link rel="stylesheet" type="text/css" href="style.css">
   </head>
-  <body>
-    <li><a class="active" href="#HOME"> HOME </a></li>
-      <li> <a href="$MENU">MENU</a></li>
-      <li> <a href="#MEDIA"> MEDIA</a></li>
+<nav class="container-fluid nav">
+  <div class="container cf">
+    <div class="brand">
+      <a href="#splash">Adam Ta</a>
+    </div>
+    <i class="fa fa-bars nav-toggle"></i>
+    <ul>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#skills">Skills &amp; Experience</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
-    <p> Hello Bald People </p>
-  </body>
+  </div>
+</nav>
+
+<div class="container-fluid splash" id="splash">
+  <div class="container">
+    <img src="https://docs.google.com/drawings/d/e/2PACX-1vTsLbzi1wSt0kcHR3L0O7nufspp57UAh5AvL8oOjFnxxydsvI_yLVeSATYowl4_yqTkZzUWQXkVKcXb/pub?w=512&h=687" alt="Picture of Adam Ta in Hong Kong" class="profile-image">
+    <h1>Adam Ta</h1>
+    <span class="lead">Professional Gamer</span>
+    <span class="continue"><a href="#about"><i class="fa fa-angle-down"></i></a></span>
+  </div>
+</div>
+
+<div class="container-fluid intro" id="about">
+  <div class="container">
+    <h2>About Me</h2>
+    <p>I enjoy playing with my devices, such as my Xiaomi Mi 8 Lite, my Nintendo Switch, and my Samsung Galaxy S8, by installing custom ROMS or operating systems. I also like testing attacks with an operating system called Kali Linux which was built for penetration testing and ethical hacking. Some of the attacks I've tested were MiTM attacks, WPA2 wifi password cracking, social engineering and more. I will be majoring computer science in college and then pursue a job in cybersecurity or software engineering.</p>
+    <img src="https://docs.google.com/drawings/d/e/2PACX-1vRHZo0LZneTrh0QQKgj5RRUqn-yguDDxF_zOHBjph1YzebIfdvy4E85WgB7j1bnCAogqJkJnk4AdFgz/pub?w=249&h=341">
+  </div>
+</div>
+
+<div class="container-fluid features" id="skills">
+  <div class="container cf">
+    <h2>Resume</h2>
+    <div class="col-3">
+      <h3>Device Mods</h3>
+      <p>I have installed a Google Pixel ROM on my Mi 8 Lite with TWRP custom recovery. I also have a custom ROM called "Atmosphere" on my Nintendo Switch. I am currently working on gaining root access on my Samsung Galaxy S8 and it will not be an easy task because I have yet to find a way to unlock the bootloader.</p>
+    </div>
+    <div class="col-3">
+     
+      <h3>Kali Linux</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda modi maiores eum commodi soluta, blanditiis voluptates ea eos, cim! Neque.</p>
+    </div>
+    <div class="col-3">
+      
+      <h3>Data Analysis</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda modi maiores eum commodi soluta, blanditiis voluptates ea eos, cim! Neque.</p>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid portfolio" id="portfolio">
+  <div class="container cf">
+    <h2>Portfolio</h2>
+    <div class="gallery">
+      <div class="gallery-image"><img src="https://unsplash.it/800/450?image=250" alt=""></div>
+      <div class="gallery-image"><img src="https://unsplash.it/800/450?image=249" alt=""></div>
+      <div class="gallery-image"><img src="https://unsplash.it/800/450?image=248" alt=""></div>
+      <div class="gallery-image"><img src="https://unsplash.it/800/450?image=247" alt=""></div>
+      <div class="gallery-image"><img src="https://unsplash.it/800/450?image=239" alt=""></div>
+      <div class="gallery-image"><img src="https://unsplash.it/800/450?image=238" alt=""></div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid contact" id="contact">
+  <div class="container">
+    <form>
+      <h2>Contact Me</h2>
+      <input type="text" placeholder="Name" id="name" name="name" class="full-half">
+      <input type="email" placeholder="Email" id="email" name="email" class="full-half">
+      <input type="text" placeholder="Subject" id="subject" name="subject">
+      <textarea placeholder="Message" id="message" name="message"></textarea>
+      <input type="submit" value="Send">
+    </form>
+  </div>
+</div>
+
+<footer class="container-fluid footer">
+  <div class="container">
+    <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+    <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+    <a href="#" target="_blank"><i class="fa fa-github"></i></a>
+    <a href="#" target="_blank"><i class="fa fa-dribbble"></i></a>
+    <a href="#" target="_blank"><i class="fa fa-codepen"></i></a>
+  </div>
+</footer>
+  
 </html>
